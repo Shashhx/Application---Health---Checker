@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # Read the Excel file into a DataFrame
-df = pd.read_excel(r'File_location')
+df = pd.read_excel(r'"C:\Users\Shashank Mishra\Documents\websites1.xlsx"')
 
 # Iterate through the DataFrame
 for index, website in df.iterrows():
